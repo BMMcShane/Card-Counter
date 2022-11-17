@@ -1,0 +1,35 @@
+.LinkCardo{
+    background-color: #661414;
+    border: outset #323131 5px;
+    color:white;
+    text-align: center;
+    padding: 2%;
+    width: 80%;
+    margin-left: 10%
+}
+
+.LinkCardo h3{
+    text-align: center;
+}
+
+.LinkCardo button{
+    background-color: #4d0f0f;
+    border: #4d0f0f outset 5px;
+    color: white;
+    font-family: 'Rambors', sans-serif;
+    font-size: 10px;
+    margin-top: 2%;
+}
+
+.LinkCardo hr{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), white, rgba(0, 0, 0, 0));
+}
+
+.LinkCardo *:link{
+    color:white;
+}
+
+.LinkCardo *:visited{
+    color:white;
+
+}

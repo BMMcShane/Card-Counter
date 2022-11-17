@@ -1,0 +1,32 @@
+.Card{
+    border: 3px outset #661414;
+    display: flex;
+    width: 100%
+}
+
+.Picture{
+    width: 10vh;
+    aspect-ratio: 1;
+    border-radius: 75px 75px 75px 75px;
+}
+
+#left{
+    width: 25%
+}
+#right{
+    width: 75%;
+    display: flex;
+}
+#right *{
+    flex-grow: 1;
+    font-size: xx-large;
+    text-align: center;
+    justify-content: center;
+    line-height: 250%;
+}
+#right *:link{
+    color: #661414;
+}
+#right *:visited{
+    color: black;
+}

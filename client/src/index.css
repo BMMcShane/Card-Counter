@@ -1,0 +1,34 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    /* padding: 1px; */
+    min-height: 100vh;
+    min-width: 100vw;
+    z-index: 0;
+    background-color: #ededed;
+}
+
+/* #root {
+    padding: 1px;
+} */
+
+p {
+    margin: 0px;
+}
+
+hr {
+    width: 84%;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #4d0f0f, rgba(0, 0, 0, 0));
+}
+

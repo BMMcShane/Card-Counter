@@ -1,0 +1,61 @@
+
+#Total{
+    position: fixed;
+    top: 2%;
+    right: 5%;
+    z-index: 3;
+}
+
+#Prime {
+    /* background-image: url("../Components/Assets/bell.png"); */
+    background-color: #661414;
+    color: white;
+    border-radius: 150px 150px 150px 150px;
+    aspect-ratio: 1;
+    width: 5vw;
+    right: 5%;
+    position: fixed;
+    /* height: 10vh; */
+}
+#Prime img{
+    width: 5vh;
+    aspect-ratio: 1;
+}
+#Prime:hover{
+    background-color: #4d0f0f;
+}
+#Prime:active{
+    background-color: #300909;
+}
+
+#Prime *{
+    background-color: transparent;
+    color: transparent;
+    border-radius: 150px 150px 150px 150px;
+    border: none;
+}
+
+#Junior{
+    position: fixed;
+    top: 13%;
+    right: 6%;
+    padding: 1%;
+    background-color: rgb(252, 239, 239);
+    border: outset 5px grey;
+    width: 18%;
+    max-height: 45%;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+#Junior::-webkit-scrollbar {
+    display: none;
+}
+#Junior h2{
+    text-align: center;
+    font-family: 'Rambors', sans-serif;
+    color: #4d0f0f;
+    font-size: xx-large;
+    margin: 0%;
+
+}

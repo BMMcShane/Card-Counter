@@ -1,0 +1,48 @@
+
+
+#HeaderBar{
+    text-align: center;
+    height: 13.5vh;
+    width: 100vw;
+    position: fixed;
+    top: 0%;
+    vertical-align: middle;
+    justify-content: center;
+    background-color: whitesmoke;
+    z-index: 2;
+    display: flex;
+}
+#HeaderBar img{
+    filter: drop-shadow(0 0 0.75rem #661414);
+}
+#Cards2{
+    transform: scaleX(-1);
+}
+
+#StuckBreak {
+    height: 15vh;
+    background: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.558), transparent);
+    z-index: 1;
+    position: fixed;
+    top: 0%;
+    width: 100vw;
+
+}
+
+#HeaderBreak {
+    height: 15vh;
+    background: linear-gradient(to bottom, black, rgb(0, 0, 0), #ededed);
+}
+
+#Logo {
+    margin-top: 4vh;
+    margin-bottom: 3vh;
+    height: 5vh;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    color: #661414;
+    font-family: 'Rambors', sans-serif;
+    font-size: 50px;
+
+}

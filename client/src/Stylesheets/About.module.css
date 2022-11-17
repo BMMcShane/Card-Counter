@@ -1,0 +1,26 @@
+#BottomBreak{
+    height: 18vh;
+}
+
+#AboutTotal{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#AboutTotal h1{
+    text-align: center;
+    font-family: 'Rambors', sans-serif;
+    font-size: 40px;
+    color: #4d0f0f;
+}
+
+#AboutTotal h2{
+    text-align: center;
+    font-family: 'Rambors', sans-serif;
+    font-size: xx-large;
+    color: #4d0f0f;
+}
+
+#AboutTotal p{
+    font-size: large;
+}

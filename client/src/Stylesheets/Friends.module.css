@@ -1,0 +1,29 @@
+
+#AddBox{
+    text-align: center;
+    background-color: #661414;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+}
+#AddBox h3{
+    color: white;
+    font-family: 'Rambors', sans-serif;
+    margin-top: 0%;
+}
+#AddBox input{
+    width: 70%;
+    font-size: large;
+}
+#AddBox button{
+    background-color: #4d0f0f;
+    border: #4d0f0f outset 5px;
+    color: white;
+    font-family: 'Rambors', sans-serif;
+    font-size: 15px;
+    margin-top: 2%;
+}
+#Code{
+    text-align: center;
+    line-height: 250%;
+
+}

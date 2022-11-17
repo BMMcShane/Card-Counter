@@ -1,0 +1,99 @@
+
+
+#ProfileTotal{
+    display: flex;
+    height: 68vh;
+
+}
+
+#LeftColumn{
+    width: 50%;
+    margin-left: 8%;
+    margin-right: 0%;
+    border: 5px outset #8b1b1b;
+    padding-left: 2%;
+    padding-right: 2%;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+#LeftColumn::-webkit-scrollbar {
+    display: none;
+}
+
+#RightColumn{
+    width: 30%;
+    border-top: 5px outset #8b1b1b;
+    border-right: 5px outset #8b1b1b;
+    border-bottom: 5px outset #8b1b1b;
+    padding: 2%;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+#RightColumn::-webkit-scrollbar {
+    display: none;
+}
+/* 
+#ProfileTotal::after{
+    content: "";
+    display: table;
+    clear: both;
+} */
+
+.Portrait{
+    height: 20vh;
+    aspect-ratio: 1;
+    border-radius: 75px 75px 75px 75px;
+}
+
+#ProfileTop{
+    display: flex;
+    background-color: #4d0f0f;
+    padding: 2%;
+}
+#ProfileTop h1{
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    width: 60%;
+    margin-top: 10%;
+    /* font-family: 'Rambors', sans-serif; */
+    color: white;
+}
+
+#Info{
+    /* color: #6a3131; */
+    font-size: larger;
+    text-align: right;
+}
+#BioTitle{
+    width: 70%;
+    margin-left: 13%;
+    margin-right: 13%;
+    text-align: center;
+    font-family: 'Rambors', sans-serif;
+    color: #4d0f0f;
+
+}
+.bio{
+    min-height: 15vh;
+    width: 70%;
+    margin-left: 13%;
+    margin-right: 13%;
+    padding: 2%;
+}
+
+#BottomBreak{
+    height: 18vh;
+}
+
+#LinkBox{
+    /* height:50%; */
+    border-bottom: 5px outset #8b1b1b;
+}
+#FriendBox{
+    /* height:50%; */
+
+}

@@ -1,0 +1,26 @@
+
+
+.Note:hover{
+    background-color: grey !important;
+}
+.Note{
+    text-align: center;
+    font-size: large;
+    line-height: 3.5vh;
+}
+.Note button{
+    border: none;
+    background-color: #661414;
+    color: white;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 40%;
+    font-size: large;
+    border-radius: 25px 25px 25px 25px;
+}
+.Note button:hover{
+    background-color: #4d0f0f;
+}
+.Note button:active{
+    background-color: #300909;
+}

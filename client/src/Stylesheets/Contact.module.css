@@ -1,0 +1,37 @@
+#Contactotal{
+    text-align: center;
+}
+
+#Contactotal h1{
+    font-family: 'Rambors', sans-serif;
+    font-size: 40px;
+    color: #4d0f0f;
+}
+
+#Contactotal h2{
+    font-family: 'Rambors', sans-serif;
+    font-size: xx-large;
+    color: #4d0f0f;
+}
+
+#Contactotal h4{
+    font-size: large;
+    margin-top: 0px;
+    /* color: #4d0f0f; */
+}
+
+#Contactotal a:link{
+    font-size: xx-large;
+    color: #4d0f0f;
+    font-family: 'Rambors', sans-serif;
+
+}
+#Contactotal a:visited{
+    font-size: xx-large;
+    color: #4d0f0f;
+    font-family: 'Rambors', sans-serif;
+}
+
+#Contactotal h3{
+    font-size: x-large;
+}

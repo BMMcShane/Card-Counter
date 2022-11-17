@@ -1,0 +1,53 @@
+#LoginAll{
+    text-align: center;
+    background-color: #9d1717;
+    width: 40%;
+    margin-left:30%;
+    border: #4d0f0f 5px outset;
+}
+#LoginAll h1{
+    color: white;
+    font-family: 'Rambors', sans-serif;
+    font-size: 40px;
+}
+
+#bootons *{
+    font-size: x-large;
+    background-color: #4d0f0f;
+    border: #4d0f0f outset 5px;
+    padding: 2%;
+    color: white;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-family: 'Rambors', sans-serif;
+}
+
+#LoginForm{
+    font-size: x-large;
+}
+#LoginForm *{
+    font-size: x-large;
+}
+#LoginForm button{
+    background-color: #4d0f0f;
+    border: #4d0f0f outset 5px;
+    color: white;
+    padding: 2%;
+    font-family: 'Rambors', sans-serif;
+}
+
+#SignupForm{
+    font-size: x-large;
+}
+#SignupForm *{
+    font-size: x-large;
+
+}
+#SignupForm button{
+    background-color: #4d0f0f;
+    border: #4d0f0f outset 5px;
+    color: white;
+    padding: 2%;
+    font-family: 'Rambors', sans-serif;
+}
+

@@ -1,0 +1,40 @@
+#LinkCreate{
+    text-align: center;
+    /* justify-content: center; */
+}
+#LinkCreate button{
+    background-color: #4d0f0f;
+    border: #4d0f0f outset 5px;
+    color: white;
+    font-family: 'Rambors', sans-serif;
+    font-size: 20px;
+}
+#LinkCreate button:active{
+    border: #300909 inset 5px;
+    background-color: #300909;
+}
+
+#CreateForm{
+    text-align: center;
+    padding: 2%;
+}
+
+#CreateForm button{
+    background-color: #4d0f0f;
+    border: #4d0f0f outset 5px;
+    color: white;
+    font-family: 'Rambors', sans-serif;
+    font-size: 20px;
+    margin-top: 2%;
+}
+
+#CreateForm input{
+    width: 60%;
+    font-size: large;
+}
+#CreateForm textarea{
+    width: 60%;
+    font-size: large;
+    height: 7vh;
+
+}

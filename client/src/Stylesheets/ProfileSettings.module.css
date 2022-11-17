@@ -1,0 +1,56 @@
+
+#EditButton{
+    text-align: center;
+    color: white;
+    font-family: 'Rambors', sans-serif;
+    font-size: 40px;
+    display: flex;
+    background-color: #4d0f0f;
+    justify-content: center;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    height: 5vh;
+}
+
+#EditButton button{
+    flex-grow: 1;
+    background-color: #4d0f0f;
+    border: #4d0f0f outset 5px;
+    color: white;
+    font-family: 'Rambors', sans-serif;
+    font-size: 20px;
+}
+
+#EditButton button:active{
+    border: #300909 inset 5px;
+    background-color: #300909;
+
+}
+
+#EditForm{
+    text-align: center;
+    padding: 2%;
+}
+
+#EditForm button{
+    background-color: #4d0f0f;
+    border: #4d0f0f outset 5px;
+    color: white;
+    font-family: 'Rambors', sans-serif;
+    font-size: 20px;
+}
+
+#EditForm input{
+    width: 60%;
+    font-size: large;
+}
+#EditForm textarea{
+    width: 60%;
+    font-size: large;
+    height: 10vh;
+}
+#EditForm label{
+    font-size: larger;
+    text-decoration: bold;
+}
